@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Guerrin</title>
+    <link rel="shortcut icon" href="Multimedia/logocoder.png">
+    <link rel="stylesheet" href="css/archivo.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta name="description" content="Lorem lorem lorem lorem">
+    <meta name=”keywords” content= “palabra,clave”>
+
+    
+  </head>
+  
+  <body>
+      <header id="header">
+          <div class="smalllogo">
+              <a href="#" class="logolink">
+                  <h2>pizzeria</h2>
+              </a>
+          </div>
+          <button class="nav-toggle">
+              <span class="navButtonMedia"></span>
+          </button>
+          <nav class="nav" id="navbar">
+              <div class="logo">
+                  <a href="#" id="logo">
+                      <h1> pizzeria</h1>
+                  </a>
+              </div>
+  
+              <ul class="nav__list" id="navlinkitems">
+                  <li class="nav__item">
+                      <a href="Secciones/Menu.html" class="nav__link" id="menu">Menu</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="Secciones/Especialidad.html" class="nav__link" id="especialidad">Especialidad</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="Secciones/ubicacion.html" class="nav__link" id="historia">Historia</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="Secciones/formulario.html" class="nav__link" id="rrhh">RRHH</a>
+                  </li>
+  
+                  <li class="nav__item">
+                      <a href="Secciones/contacto.html" class="nav__link" id="contacto">Contacto</a>
+                  </li>
+              </ul>
+          </nav>
+      </header>
+
+
+    
+    
+    <section id="content">
+      
+      <div class="textPizza">
+      <img src="Multimedia/Copia de pizza-horno 2.jpeg" alt="pizza">
+      <div class="textCenter">
+      <p>Desde 1932 una tradicion que se mantiene</p>
+      </div> 
+    
+    
+      </div>
+      
+      <h2>Reconocimientos:</h2>
+
+      <div class="contentproducts">
+      <ul>
+        <li class="li1">Lorem</li>
+        <li class="li2">Lorem</li>
+        <li class="li3">Lorem</li>
+        <li class="li4">Lorem</li>
+        <li>Lorem</li>
+       
+      </ul>
+      </div>
+
+
+    </section> 
+ 
+    <div class="clearFix"></div>
+   
+
+
+   <div class="textImgContainer">
+   <div class="textoImg">
+   <img src="Multimedia/hornoBarro.jpg" alt="hornodebarro">
+   </div>
+   <div class="textoContainer">
+   <h3>Historia</h3> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nihil explicabo odio. 
+     Perferendis libero earum repudiandae minima hic quam itaque eum illum dolorem quidem, 
+     cupiditate eligendi eius rem, tempore aperiam.</p>
+   </div>
+   </div>
+   
+   <div class="textoImgContainer2">
+   <div class="textoImg2">
+    <img src="Multimedia/hornoBarro.jpg" alt="hornodebarro">
+   </div>
+    <div class="textoContainer2">
+    <h3>Historia</h3> 
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nihil explicabo odio. 
+      Perferendis libero earum repudiandae minima hic quam itaque eum illum dolorem quidem, 
+      cupiditate eligendi eius rem, tempore aperiam.</p>
+    </div>
+   
+  </div>
+  
+
+
+    
+   <div class="clearFix"></div>
+
+    <div class="ubicacionMaps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894756!2d-58.38375908450375!3d-34.603734465006504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1625657981069!5m2!1ses-419!2sar"width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>  
+   
+    <footer>
+      
+      <div class="containerFooter">
+        <a class="logoFooter" href="#">Logo</a>
+      
+        <ul class="contentListFooter">
+           <li><a href="#" target="_blank"><b>Trabaja con nosotros</b> </a></li>
+           <li><a href="#"><b>Contacto</b></a></li>
+           <li><a href="#"><b>Registrate</b></a></li>
+        </ul>
+
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy; 2021 <span>Augusto</span> </p>
+      </div>
+   </footer>
+
+   <script>
+
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+        document.getElementById("navbar").style.background = "#fff";
+    }
+
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelectorAll(".nav__link");
+
+    navToggle.addEventListener("click", () => {
+        document.body.classList.toggle("nav-open");
+    });
+
+    navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            document.body.classList.remove("nav-open");
+        });
+    });
+
+</script>
+
+   
+  </body>
+</html>
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pizzeria Guerrin</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/archivo.css" text="text/css">
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <meta name="description" content="Lorem lorem lorem lorem">
+    <meta name=”keywords” content= “palabra,clave”>
+
+    </head>
+</head>
+<body>
+  <form action="" method="" enctype="">
+    <fieldset>
+        <legend>Registrate</legend>
+
+        <div>
+            <label> Dni: </label>
+            <input type="number" id="dni" name="dni" placeholder="Pon tu numero de ID" required>
+        </div>
+        <div>
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre" required>
+        </div>
+        <div>
+            <label>Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Pon tu apellido">
+        </div>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="email" name="email" placeholder="Pon tu email" required>
+        </div>
+        <div>
+            <label>Sexo:</label><br>
+            <input type="radio" id="sexo" name="sexo"><span>Masculino</span><br>
+            <input type="radio" id="sexo" name="sexo"><span>Femenino</span><br>
+            <input type="radio" id="sexo" name="sexo"><span>Prefiero no decirlo</span><br>
+        </div>
+
+        <div>
+          <label for="paises">Paises:</label>
+          <select id="paises" name="paises">
+            <option value="" selected>Elije una opcion</option>
+            <optgroup label="America">
+              <option value="Argentina">Argentina</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Chile">Chile</option>
+            </optgroup>
+            <optgroup label="Europa">
+              <option value="Francia">Francia</option>
+              <option value="España">España</option>
+              <option value="Italia">Italia</option>
+            </optgroup>
+            <optgroup label="Medio Oriente">
+              <option value="Israel">Israel</option>
+              <option value="Iran ">Iran</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div>
+          <label for="archivos">Adjunte Imagen de su ID:</label><br> 
+          <input type="file" placeholder="Adjunte imagen de su ID">
+        </div>
+
+        <div>
+          <label for="reset"></label>
+          <input name="reset" type="reset">
+
+          <label for="log in"></label>
+          <input  name="Log In" type="submit">
+        </div>
+    </fieldset>
+       
+        <div>
+            <p> Para volver al <b>menu</b> hacer <a href="../index.html">Click aqui</a></p>
+        </div>
+
+          <div>
+          <a href="../index.html"><img src="../Multimedia/pizza.png" width="180px" height="145px"/></a>
+          </div>
+   
+  </body>
+</html>
